@@ -1,0 +1,15 @@
+/* color variables 
+to use: replace "color" with var(--color)
+ex: 
+    background-color: var(--yellow);
+*/
+
+:root{
+    --teal: #177E89;
+    --blue: #043673;
+    --red: #BF1E2E;
+    --yellow: #FDB515;
+    --black: #323031;
+}
+
+
