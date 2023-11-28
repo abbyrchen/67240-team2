@@ -15,11 +15,6 @@ ex:
 }
 
 /* navbar styling */
-.nav-link {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
-    color: black;
-}
 
 .navbar-style {
     background-color: #ffffff;
@@ -27,6 +22,19 @@ ex:
 }
 
 .dropdown-menu {
-    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: black;
+}
+
+.dropdown-item {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+    color: black;
+}
+
+.gradient {
+    mask-image:linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+
 }
 
