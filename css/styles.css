@@ -15,16 +15,15 @@ ex:
 }
 
 /* navbar styling */
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: black;
+}
 
 .navbar-style {
     background-color: #ffffff;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.dropdown-menu {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
-    color: black;
 }
 
 .dropdown-item {
