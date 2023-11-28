@@ -20,3 +20,12 @@ ex:
 
 }
 
+#background{
+    position:absolute;
+    z-index: -1;
+}
+
+.text-white{
+    color:white;
+}
+
