@@ -131,6 +131,10 @@ h1, h2, h3, h4, p, a {
     color: white;
 }
 
+#involved-card a {
+    color: white;
+}
+
 #recent-news .card-body h3 {
     font-size: 1.5em;
 }
