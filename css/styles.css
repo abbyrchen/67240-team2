@@ -54,11 +54,14 @@ body{
     color: black;
 }
 
-.dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0;
+
+
+ .dropdown-submenu {
+    display: none;
+    position: absolute;
+    right: 100%;
     border-radius: 0;
- }
+}
 
 .btn{
     background-color: rgba(0, 0, 0, 0);
@@ -69,6 +72,12 @@ body{
 .dropdown-item{
     padding: 10px 10px;
 }
+
+
+
+
+
+
 
 #hero{
     max-width: 100vw;
@@ -142,7 +151,6 @@ h1, h2, h3, h4, p, a {
 }
 
 #connect-card a {
-    margin-top: 31%;
     color: white;
 }
 
@@ -173,10 +181,32 @@ h1, h2, h3, h4, p, a {
 /* what is buggy home section */
 
 .carousel-inner{
-    width: 80%;
+    width: 100%;
     padding: 3%;
 
 }
+
+/* reference - why join styling */
+#why-join {
+    background-color:var(--yellow);
+}
+
+#why-join .card {
+    max-width: 300px;
+}
+
+#why-join p {
+    max-width: 600px;
+}
+
+.card-img-overlay .card-text {
+    font-size: 0.75em;
+    width: 90%;
+    visibility: hidden;
+    position: absolute;
+}
+
+
 
 /*footer styling */
 
@@ -203,6 +233,16 @@ h1, h2, h3, h4, p, a {
     .footer-text{
         min-width:500px;
     }
+    
+    .dropdown-menu > li:hover > .dropdown-submenu {
+        display: block;
+        transform: translate(0, -40px);
+    }
+    .dropdown:hover > .dropdown-menu {
+        display: block;
+        margin-top: 0;
+        border-radius: 0;
+    }
 }
 
 .footer-subtext{
@@ -228,6 +268,18 @@ h1, h2, h3, h4, p, a {
         width:20px;
     }
 }
+
+@media (max-width:576){
+    #connect-card a {
+        margin-top: 0%;
+    }
+}
+
+
+
+
+
+
 
 /* testing*/
 
