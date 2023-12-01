@@ -62,11 +62,14 @@ body{
     color: black;
 }
 
-.dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0;
+
+
+ .dropdown-submenu {
+    display: none;
+    position: absolute;
+    right: 100%;
     border-radius: 0;
- }
+}
 
 .btn{
     background-color: rgba(0, 0, 0, 0);
@@ -76,6 +79,7 @@ body{
 
 .dropdown-item{
     padding: 10px 10px;
+    position: relative;
 }
 
 
@@ -191,6 +195,25 @@ h1, h2, h3, h4, p, a {
 
 }
 
+/* reference - why join styling */
+#why-join {
+    background-color:var(--yellow);
+}
+
+#why-join .card {
+    max-width: 300px;
+}
+
+#why-join p {
+    max-width: 600px;
+}
+
+.card-img-overlay .card-text {
+    font-size: 0.75em;
+    width: 90%;
+    visibility: hidden;
+    position: absolute;
+}
 
 
 
@@ -217,6 +240,16 @@ h1, h2, h3, h4, p, a {
 @media(min-width:991px){
     .footer-text{
         min-width:500px;
+    }
+    
+    .dropdown-menu > li:hover > .dropdown-submenu {
+        display: block;
+        transform: translate(0, -40px);
+    }
+    .dropdown:hover > .dropdown-menu {
+        display: block;
+        margin-top: 0;
+        border-radius: 0;
     }
 }
 
