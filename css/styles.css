@@ -14,6 +14,8 @@ ex:
     --black: #323031;
 }
 
+/* GENERAL */
+
 body{
     min-height:100vh;
     position:relative;
@@ -31,6 +33,16 @@ body{
 }
 .text-black{
     color:black;
+}
+
+/* typography */
+h1 {
+    font-weight: 700;
+    font-size: 2em;
+}
+
+h1, h2, h3, h4, p, a {
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -54,8 +66,6 @@ body{
     color: black;
 }
 
-
-
  .dropdown-submenu {
     display: none;
     position: absolute;
@@ -73,12 +83,43 @@ body{
     padding: 10px 10px;
 }
 
+/* footer styling */
+.footer{
+    background-color: white;
+    position:absolute;
+    bottom:0;
+    border-top: solid 0.5px;
+}
 
+.social-logo{
+    margin: 0px 8px;
+}
 
+.footer-text{
+    margin-top: 3%;
+    font-size: 0.75rem;
+    margin-left: 1rem;
+    padding: 0;
+    margin-bottom:0;
+}
 
+.footer-subtext{
+    font-size:0.6rem;
+    margin-left:1rem;
+    padding:0;
+}
 
+.buggydesc{
+    padding-left:5%;
+}
 
+.social-logo{
+    width:40px;
+}
 
+/****** HOMEPAGE ******/
+
+/* intro image */
 #hero{
     max-width: 100vw;
 }
@@ -111,8 +152,16 @@ body{
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-/* connect section */
+#recent-news .card-body h3 {
+    font-size: 1.5em;
+}
 
+#recent-news .card-body p {
+    color: var(--red);
+    font-size: 1em;
+}
+
+/* connect section */
 #connect .card {
     border-radius: 0;
     height: 100%;
@@ -131,16 +180,6 @@ body{
 #resources-card {
     background-color: var(--yellow);
     color: black;
-}
-
-/* typography */
-h1 {
-    font-weight: 700;
-    font-size: 2em;
-}
-
-h1, h2, h3, h4, p, a {
-    font-family: 'Montserrat', sans-serif;
 }
 
 #connect .card-body h4 {
@@ -163,15 +202,6 @@ h1, h2, h3, h4, p, a {
     color: white;
 }
 
-#recent-news .card-body h3 {
-    font-size: 1.5em;
-}
-
-#recent-news .card-body p {
-    color: var(--red);
-    font-size: 1em;
-}
-
 #resources-card p {
     margin-top: 10%;
     font-size: 1em;
@@ -182,15 +212,15 @@ h1, h2, h3, h4, p, a {
     color: black;
 }
 
-
 /* what is buggy home section */
-
 .carousel-inner{
     width: 100%;
     padding: 3%;
 }
 
-/* reference - why join styling */
+/****** BUGGY REFERENCE ******/
+
+/* why join styling */
 #why-join {
     background-color:var(--yellow);
 }
@@ -210,26 +240,61 @@ h1, h2, h3, h4, p, a {
     position: absolute;
 }
 
+/****** RACEDAY ******/
 
-
-/*footer styling */
-
-.footer{
-    background-color: white;
-    position:absolute;
-    bottom:0;
-    border-top: solid 0.5px;
-}
-.social-logo{
-    margin: 0px 8px;
+/* raceday page categories */
+#raceday-categories .card {
+    max-width: 300px;
+    border-radius: 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.footer-text{
-    margin-top: 3%;
-    font-size: 0.75rem;
-    margin-left: 1rem;
-    padding: 0;
-    margin-bottom:0;
+#raceday-categories .card-body h3 {
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+#raceday-categories .card-body p {
+    margin-top: 5%;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+#heat-schedule:hover {
+    background-color: var(--red);
+    transition: background-color 0.3s ease;
+    color: white;
+}
+
+#leaderboard:hover {
+    background-color: var(--teal);
+    transition: background-color 0.3s ease;
+    color: white;
+}
+
+#livestream:hover {
+    background-color: var(--blue);
+    transition: background-color 0.3s ease;
+    color: white;
+}
+
+#chat:hover {
+    background-color: var(--yellow);
+    transition: background-color 0.3s ease;
+}
+
+/****** MEDIA QUERIES ******/
+
+@media (max-width:991px){
+    .social-logo{
+        width:20px;
+    }
+}
+
+@media (max-width:576px){
+    #connect-card a {
+        margin-top: 0%;
+    }
 }
 
 @media(min-width:991px){
@@ -247,38 +312,3 @@ h1, h2, h3, h4, p, a {
         border-radius: 0;
     }
 }
-
-.footer-subtext{
-    font-size:0.6rem;
-    margin-left:1rem;
-    padding:0;
-}
-
-.buggydesc{
-    padding-left:5%;
-}
-
-.social-logo{
-    width:40px;
-}
-
-@media (max-width:991px){
-    .social-logo{
-        width:20px;
-    }
-}
-
-@media (max-width:576px){
-    #connect-card a {
-        margin-top: 0%;
-    }
-}
-
-
-
-
-
-
-
-/* testing*/
-
