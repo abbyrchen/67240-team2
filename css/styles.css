@@ -101,6 +101,10 @@ body{
     font-weight: 900;
 }
 
+#mailing-list a {
+    color: var(--teal);
+}
+
 #recent-news .card {
     max-width: 300px;
     border-radius: 0;
@@ -152,6 +156,7 @@ h1, h2, h3, h4, p, a {
 
 #connect-card a {
     color: white;
+    margin-top: 32%;
 }
 
 #involved-card a {
@@ -183,7 +188,6 @@ h1, h2, h3, h4, p, a {
 .carousel-inner{
     width: 100%;
     padding: 3%;
-
 }
 
 /* reference - why join styling */
@@ -226,7 +230,6 @@ h1, h2, h3, h4, p, a {
     margin-left: 1rem;
     padding: 0;
     margin-bottom:0;
-
 }
 
 @media(min-width:991px){
@@ -251,10 +254,6 @@ h1, h2, h3, h4, p, a {
     padding:0;
 }
 
-
-
-
-
 .buggydesc{
     padding-left:5%;
 }
@@ -269,7 +268,7 @@ h1, h2, h3, h4, p, a {
     }
 }
 
-@media (max-width:576){
+@media (max-width:576px){
     #connect-card a {
         margin-top: 0%;
     }
