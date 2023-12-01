@@ -156,7 +156,6 @@ h1, h2, h3, h4, p, a {
 }
 
 #connect-card a {
-    margin-top: 31%;
     color: white;
 }
 
@@ -187,7 +186,7 @@ h1, h2, h3, h4, p, a {
 /* what is buggy home section */
 
 .carousel-inner{
-    width: 80%;
+    width: 100%;
     padding: 3%;
 
 }
@@ -247,6 +246,12 @@ h1, h2, h3, h4, p, a {
 @media (max-width:991px){
     .social-logo{
         width:20px;
+    }
+}
+
+@media (max-width:576){
+    #connect-card a {
+        margin-top: 0%;
     }
 }
 
