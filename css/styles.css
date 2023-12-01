@@ -78,16 +78,16 @@ body {
 }
 
 #recent-news .card {
-    max-width: 400px;
+    max-width: 300px;
+    border-radius: 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 /* connect section */
-.card {
-    height: 100%;
-}
 
 #connect .card {
     border-radius: 0;
+    height: 100%;
 }
 
 #connect-card {
@@ -195,3 +195,4 @@ h1, h2, h3, h4, p, a {
         width: 50%;
     }
 }
+
