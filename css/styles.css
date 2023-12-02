@@ -19,7 +19,7 @@ ex:
 body{
     min-height:100vh;
     position:relative;
-    padding-bottom: 4rem;
+    padding-bottom: 6rem;
     padding-top:6rem;
 }
 
@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, p, figcaption, a {
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
     color: black;
-    padding:20px 0px;
+    padding:10px 0px;
 }
 
 .navbar-style {
@@ -314,6 +314,34 @@ h1, h2, h3, h4, h5, p, figcaption, a {
 #chat:hover {
     background-color: var(--yellow);
     transition: background-color 0.3s ease;
+}
+
+/* raceday event schedule */
+
+.nav-tabs button.nav-link{
+    background-color: var(--blue);
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 0;
+}
+
+.nav-tabs .nav-item{
+    padding: 0px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: var(--teal);
+    color: white;
+    border-width: 0px;
+}
+
+.tab-content {
+    background-color: var(--teal);
+}
+
+#eventSchedule .card p.location {
+    color: var(--red);
 }
 
 /****** MEDIA QUERIES ******/
