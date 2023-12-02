@@ -41,7 +41,7 @@ h1 {
     font-size: 2em;
 }
 
-h1, h2, h3, h4, p, a {
+h1, h2, h3, h4, h5, p, figcaption, a {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -238,6 +238,39 @@ h1, h2, h3, h4, p, a {
     width: 90%;
     visibility: hidden;
     position: absolute;
+}
+
+/* involved and about section */
+#who-is-involved {
+    background-color: var(--teal);
+    color: white;
+}
+
+#who-is-involved a {
+    color: white;
+}
+
+#who-is-involved figcaption {
+    font-size: 0.9em;
+}
+
+#involved-about .card {
+    height: 100%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#involved-about p {
+    color: white;
+    font-size: 1em;
+}
+
+#about-the-race {
+    background-color: var(--blue);
+    color: white;
+}
+
+#about-the-race a {
+    color: white;
 }
 
 /****** RACEDAY ******/
