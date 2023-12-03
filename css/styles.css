@@ -377,6 +377,14 @@ h1, h2, h3, h4, h5, p, figcaption, a {
     #connect-card a {
         margin-top: 0%;
     }
+
+    #about-the-race {
+        margin-top: 10%;
+    }
+
+    #buggy-resources p {
+        margin-top: 20%;
+    }
 }
 
 @media(min-width:991px){
