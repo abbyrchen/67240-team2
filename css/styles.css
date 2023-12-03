@@ -224,7 +224,14 @@ h1, h2, h3, h4, h5, p, figcaption, a {
 }
 
 /****** BUGGY REFERENCE ******/
-
+/* what is buggy*/
+.caption{
+    position: relative;
+    top:100%;
+}
+#whatisbuggy{
+    padding-bottom:6rem;
+}
 /* why join styling */
 #why-join {
     background-color:var(--yellow);
