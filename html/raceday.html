@@ -10,6 +10,7 @@
   </head>
 
   <body>
+    <!-- fixed navbar w dropdowns -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-style p-3">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
@@ -90,10 +91,8 @@
                 </li>
 
                 <li class="nav-item dropdown">
-
                     <a class="nav-link inline " href="placeholder.html" aria-expanded="false"> News</a>
                     <a class="nav-link dropdown-toggle inline " href="" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"></a>
-
                     <ul class="dropdown-menu my-2">
                       <li><a class='dropdown-item dropdown-toggle' href="" data-bs-toggle="dropdown" aria-expanded="false">By Category</a>
                         <ul class="dropdown-submenu dropdown-menu">
@@ -109,10 +108,8 @@
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
-
                     <a class="nav-link inline " href="buggy_reference.html" aria-expanded="false"> Buggy Reference</a>
                     <a class="nav-link dropdown-toggle inline " href="" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"></a>
-
                     <ul class="dropdown-menu my-2">
                       <li><a class="dropdown-item" href="placeholder.html">What is Buggy</a></li>
                       <li><a class='dropdown-item dropdown-toggle' href="" data-bs-toggle="dropdown" aria-expanded="false">About the Race</a>
@@ -147,54 +144,67 @@
         </div>
       </nav>
 
+      <!-- page location -->
       <div class="container mt-4" id="page-location">
         <p><strong><a href=index.html>HOME</a> ></strong> RACEDAY</p>
       </div>
 
+      <!-- raceday cards that link to relevant pages -->
       <div class="container" id="raceday-categories">
         <h1 class="mt-5">Raceday</h1>
         <p>Welcome to Raceday 2024 - we’re excited to see everyone!</p>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-2">
           <div class="col mb-4">
-            <div class="card h-100 mx-auto" id="heat-schedule">
-              <div class="card-body d-flex flex-column text-center my-auto">
-                <h3>Heat Schedule</h3>
-                <p>Don’t miss a race! Checkout the schedule here.</p>
+            <a href="https://cmubuggy.org/raceday/heats/">
+              <div class="card h-100 mx-auto" id="heat-schedule">
+                <div class="card-body d-flex flex-column text-center my-auto">
+                  <h3>Heat Schedule</h3>
+                  <p>Don’t miss a race! Checkout the schedule here.</p>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
           <div class="col mb-4">
-            <div class="card h-100 mx-auto" id="leaderboard">
-              <div class="card-body d-flex flex-column text-center">
-                <h3>Leaderboard</h3>
-                <p>Keep track of the leading times! Results update automatically.</p>
+            <a href="https://cmubuggy.org/raceday/leaderboard">
+              <div class="card h-100 mx-auto" id="leaderboard">
+                <div class="card-body d-flex flex-column text-center">
+                  <h3>Leaderboard</h3>
+                  <p>Keep track of the leading times! Results update automatically.</p>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
           <div class="col mb-4">
-            <div class="card h-100 mx-auto" id="livestream">
-              <div class="card-body d-flex flex-column text-center">
-                <h3>Livestream</h3>
-                <p>If you can’t make it in person, you can still catch the races from home.</p>
+            <a href="https://livestream.com/cmutvlive/buggy2023">
+              <div class="card h-100 mx-auto" id="livestream">
+                <div class="card-body d-flex flex-column text-center">
+                  <h3>Livestream</h3>
+                  <p>If you can’t make it in person, you can still catch the races from home.</p>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
           <div class="col mb-4">
-            <div class="card h-100 mx-auto" id="chat">
-              <div class="card-body d-flex flex-column text-center">
-                <h3>Chat</h3>
-                <p>Join our Discord to chat all things throughout Carnival and Beyond</p>
+            <a href="https://discord.com/invite/PUwuUuj">
+              <div class="card h-100 mx-auto" id="chat">
+                <div class="card-body d-flex flex-column text-center">
+                  <h3>Chat</h3>
+                  <p>Join our Discord to chat all things throughout Carnival and Beyond</p>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
 
+      <!-- raceday event schedule -->
       <div class="container" id="eventSchedule">
         <h1 class="mt-5">Raceday Event Schedule</h1>
         <p>If you’re interested in learning about other events happening (both 
           in person and virtual) for Spring Carnival this year, see the full 
           carnival site.</p>
+
+        <!-- tabs component -->
         <ul class="nav nav-tabs" id="myTab" role="tablist">
           <li class="nav-item" role="presentation">
             <button class="nav-link active px-3" id="thursday-tab" data-bs-toggle="tab" 
@@ -260,19 +270,15 @@
           </div>
           <div class="tab-pane fade" id="friday-tab-pane" role="tabpanel" 
           aria-labelledby="friday-tab" tabindex="0">
-
           </div>
           <div class="tab-pane fade" id="saturday-tab-pane" role="tabpanel" 
           aria-labelledby="saturday-tab" tabindex="0">
-
           </div>
         </div>
-        
       </div>
 
-<!--footer-->
+  <!--footer-->
   <div class="footer row">
-
     <div class="col-12 col-lg-4 order-3 order-lg-1 text-center text-lg-start">
       <p class="footer-text">The CMU Buggy Alumni Association is an Alumni Interest Group from Carnegie Mellon University in Pittsburgh, PA. Please contact <a href="mailto:admin@cmubuggy.org">admin@cmubuggy.org</a> with any questions.</p>
       <p class="footer-subtext">CMU Buggy Alumni Association © 2008–2023</p>
@@ -291,13 +297,9 @@
         <a href="https://cmubuggy.org/news/feed/" target="_blank"><img class="social-logo" src="../img/socials_logos/newsfeed.png"></a>
       </div>
     </div>
-
-
-
-
   </div>
+  
   <!--js and bootstrap stuff-->
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   <script src="../js/myscripts.js"></script>
 </body>

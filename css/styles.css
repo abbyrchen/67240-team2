@@ -299,6 +299,10 @@ h1, h2, h3, h4, h5, p, figcaption, a {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+#raceday-categories a {
+    text-decoration: none;
+}
+
 #raceday-categories .card-body h3 {
     font-size: 1.5em;
     font-weight: bolder;
