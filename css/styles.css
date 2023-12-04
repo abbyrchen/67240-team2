@@ -16,7 +16,7 @@ ex:
 
 /* GENERAL */
 
-body{
+body {
     min-height:100vh;
     position:relative;
     padding-bottom: 6rem;
@@ -57,6 +57,22 @@ h1, h2, h3, h4, h5, p, figcaption, a {
     font-size: 1em;
     color: black;
     padding:10px 0px;
+}
+
+.nav-link {
+    transition: all 0.4s;
+    padding-bottom: 4px;
+    border-bottom: 3px solid transparent;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  border-bottom: 3px solid var(--yellow);
+}
+
+/* Exclude the dropdown icon from getting underline on hover */
+.nav-link.dropdown-toggle.inline:hover {
+  border-bottom: 3px solid transparent;
 }
 
 .navbar-style {
