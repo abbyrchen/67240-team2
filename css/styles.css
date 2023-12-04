@@ -146,9 +146,10 @@ h1, h2, h3, h4, h5, p, figcaption, a {
     max-width: 100vw;
 }
 
-#raceday {
+.raceday {
     position: absolute;
-    top: 10px;
+    top: 110px;
+    left: 40px
 }
 
 
@@ -388,6 +389,10 @@ h1, h2, h3, h4, h5, p, figcaption, a {
 
 #eventSchedule .card p.location {
     color: var(--red);
+}
+
+#eventSchedule .btn {
+    background-color: var(--teal);
 }
 
 /****** MEDIA QUERIES ******/
