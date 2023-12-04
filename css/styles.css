@@ -363,6 +363,16 @@ h1, h2, h3, h4, h5, p, figcaption, a {
     transition: background-color 0.3s ease;
 }
 
+#schenley .card-body a.btn:hover {
+    background-color: #13666f;
+    border-color: #13666f;
+}
+
+#sweepstakes .card-body a.btn:hover {
+    background-color: #13666f;
+    border-color: #13666f;
+}
+
 /* raceday event schedule */
 
 .nav-tabs button.nav-link{
