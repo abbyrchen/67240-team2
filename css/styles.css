@@ -397,6 +397,16 @@ h1, h2, h3, h4, h5, p, figcaption, a {
     }
 
     #about-the-race {
+        margin-top: 30%;
+    }
+
+    #buggy-resources p {
+        margin-top: 20%;
+    }
+}
+
+@media (max-width:761px) {
+    #about-the-race {
         margin-top: 10%;
     }
 
